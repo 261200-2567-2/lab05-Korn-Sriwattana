@@ -2,8 +2,8 @@
 public class Main {
     public static void main(String[] args) {
         // สร้างตัวละคร
-        RPGCharacter swordman = new Swordman("Tul fanPam");
-        RPGCharacter archer = new Archer("Pam fanTul");
+        RPGCharacter swordman = new Swordman("Tul");
+        RPGCharacter archer = new Archer("Pam");
 
         // สร้างอุปกรณ์เสริม
         Accessory shield = new ProtectiveAccessory("Shield", 5);
