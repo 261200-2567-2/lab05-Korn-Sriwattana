@@ -9,7 +9,7 @@ public class Main {
         Accessory shield = new ProtectiveAccessory("Shield", 5);
         Accessory boots = new AgilityAccessory("Boots", 3);
 
-        // การใช้งาน
+        // การใช้งานอาวุธ จ้า
         swordman.equip(shield);
         swordman.showStatus();
 
